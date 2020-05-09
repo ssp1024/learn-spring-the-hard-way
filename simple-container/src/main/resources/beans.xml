@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="orange" class="com.ssp1024.tutorial.simplecontainer.beans.Orange"></bean>
+    <bean id="apple" class="com.ssp1024.tutorial.simplecontainer.beans.Apple"></bean>
+    <bean id="person" class="com.ssp1024.tutorial.simplecontainer.beans.Person">
+        <property name="food" ref="apple"/>
+    </bean>
+</beans>
